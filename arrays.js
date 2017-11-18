@@ -14,11 +14,11 @@ function accessElementInArray(array, index){
  return array[index]; 
 }
 
-function destructivelyRemoveElementFromBeginningOfArray(array, element){
-  array.shift(element);
+function destructivelyRemoveElementFromBeginningOfArray(array){
+  array.shift();
   return array;
 }
 
-function removeElementFromBeginningOfArray(array, element){
-  array.
+function removeElementFromBeginningOfArray(array){
+  array.slice(1)
 }
